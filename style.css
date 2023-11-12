@@ -1,0 +1,916 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: white;
+    font-size: 18px;
+    
+}
+#titleMain{
+    border: 4px solid #7E1F86;
+    border-radius: 15px;
+    width:500px;
+    padding: 10px;
+    padding-left: 10px;
+    text-align: left;
+    margin-left: 100px;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255,0.6);
+    position: relative;
+    top: -80px;
+}
+header{
+    display: flex;
+    margin-top: 0px;
+    background-color: white;
+    height:60px;
+}
+.main{
+    background-color: white;
+}
+.menu{
+    color:#7E1F86;
+    margin-left: 200px;
+}
+.menu:hover{
+    color: rgb(100, 192, 188);
+}
+#avatar{
+    width:45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+.aboutme{
+    display: flex;
+    justify-content: space-around;
+    background-color: #7E1F86;
+}
+h3{
+    font-size: 20px;
+    color:#ffc508;
+    margin-left: 60px;
+}
+li{
+    color:white;
+    margin-left: 70px;
+    font-size: 20px;
+}
+p{
+    color:white;
+    margin-left: 70px;
+    font-size: 20px;
+}
+#mainph{
+    width: 550px;
+    height:600px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.question{
+    background-color: #7E1F86;
+}
+#none{
+    display:none;
+}
+#dots{
+    display: inline;
+}
+#none2{
+    display:none;
+}
+#dots2{
+    display: inline;
+}
+.more:hover{
+    color:blue;
+    cursor:pointer;
+}
+.contact{
+    margin-top: 50px;
+    background-color: purple;
+    display: flex;
+    justify-content: space-around;
+}
+.me{
+    text-align: center;
+}
+#descriptions{
+    color:white;
+}
+.contactus{
+    text-decoration: none;
+}
+.contactus:hover{
+    color:rgb(100, 192, 188);
+}
+#mainph:hover{
+    transform: scale(1.02);
+}
+.banner{
+    display: flex;
+    height:700px;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+.consultations{
+    display: flex;
+    flex-direction: column;
+}
+.imajj{
+    display: flex;
+    flex-direction: column;
+}
+.consultation{
+    border:none;
+    background-color: #7E1F86;
+    padding: 10px;
+    margin-left: 0px;
+    color:white;
+    border-radius: 5px;
+    width:500px;
+    height:60px;
+    font-size:20px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    margin-top: 40px;
+}
+.consultation:hover{
+    transform: scale(1.02);
+    background-color:#f0eff0 ;
+    color: #7E1F86;
+}
+.consultationn{
+    color: white;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.bulletpoints{
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-around;
+}
+.row1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.rowitem1{
+    display: flex;
+    border-radius: 5px;
+    width:400px;
+    margin-bottom:30px;
+    margin-left: 250px;
+    text-align: left;
+}
+.rowitem2{
+    display: flex;
+    border-radius: 5px;
+    width:400px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    text-align: left;
+}
+.drug{
+    width:70px;
+    height:70px;
+    margin: 0;
+    position: relative;
+    left:-10px;
+}
+.text{
+    color:#7E1F86;
+    margin: 0;
+    font-size: 28px;
+    font-weight: bolder;
+}
+#otherbtn{
+    margin-left: 70px;
+}
+li{
+    margin: 10px 0px 10px 70px;
+}
+.imaj{
+    overflow: visible;
+    width:450px;
+    height:430px;
+    border: 3px solid #7E1F86;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 30px;
+    background-image: url(/images/doctor\ office.jpg);
+    background-color: rgba(255, 255, 255,0.6);
+}
+#firstph{
+    width: 550px;
+    height:550px;
+    border-radius: 50%;
+    position: relative;
+    top:-130px;
+    left: -42px;
+}
+.banner{
+    background-image: url(./images/office.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #7E1F86;
+    margin-bottom: 0px;
+}
+h2{
+    color:purple;
+    margin-top: 140px;
+    margin-left: 15px;
+}
+i{
+    display: flex;
+}
+#description{
+    color: #7E1F86;
+    font-size: 16px;
+    position: relative;
+    top: -55px;
+    left:30px;
+}
+#product1{
+    color:white;
+    text-decoration: none;
+}
+#product1:hover{
+    color:blue;
+}
+.productText{
+    width:500px;
+    padding:5px 10px;
+    padding-left: 0px;
+    text-align: left;
+    margin-left: 100px;
+    font-size: 30px;
+    height: 420px;
+    position: relative;
+    top: -90px;
+}
+#productTitle{
+    width: 100%;
+    color:rgb(38, 0, 226);
+    background-color:rgb(255, 255, 255);
+    padding: 5px;
+    border: 4px solid rgb(38, 0, 226);
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 45px;
+    position: relative;
+    top:-110px;
+    margin-top: 10;
+    margin-bottom: 0;
+}
+#productDes{
+    width: 100%;
+    border: 4px solid #7E1F86;
+    border-radius: 15px;
+    margin-left: 10px;
+    color:purple;
+    position: relative;
+    line-height: 30px;
+    position: relative;
+    top:-95px;
+    background-color: rgba(255, 255, 255,0.6);
+    color: #7E1F86;
+    padding: 10px;
+}
+.towho{
+    padding-top: 40px;
+}
+#whoTitle{
+    color: rgb(38, 0, 226);
+    width:fit-content;
+    margin:auto;
+    font-size: 30px;
+}
+.boxes{
+    padding-top: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+.box{
+    background-color: #7E1F86;
+    border-radius: 20px;
+    height:300px;
+    width:350px;
+    padding: 30px;
+    line-height: 30px;
+    text-align: center;
+    box-shadow: 10px 10px 5px -3px rgba(153,143,143,0.75);
+-webkit-box-shadow: 10px 10px 5px -3px rgba(153,143,143,0.75);
+-moz-box-shadow: 10px 10px 5px -3px rgba(153,143,143,0.75);
+}
+.whoDes{
+    margin: 0;
+}
+#whoBtn{
+    background-color: #7E1F86;
+    width:450px;
+    margin: auto;
+    margin-left: 550px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#whoLine{
+    margin: 0;
+    text-decoration: none;
+    color: white;
+}
+.whatIdo{
+    background-image: url(./images/office.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 0;
+}
+#whatDes{
+    margin-top: 30px;
+    width:65%;
+    margin: auto;
+    border:2px solid #7E1F86;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255,0.6);
+    color:#7E1F86;
+    padding: 50px 20px;
+    font-size: 26px;
+}
+#bulTitle{
+    color: rgb(38, 0, 226);
+    font-size: 30px;
+    margin-left: 600px;
+    margin-top: 40px;
+}
+li{
+    background-color: rgba(255, 255, 255,0.6);
+    color: #7E1F86;
+    border:2px solid #7E1F86;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    width:640px;
+}
+#bigText{
+    margin-top: 30px;
+    color: #7E1F86;
+    margin:auto;
+    width: 80%;
+    font-size: 32px;
+    font-weight: bold;
+}
+.rectangle{
+    margin: auto;
+    color:purple;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h4{
+    font-size: 26px;
+    color:rgb(38, 0, 226);
+}
+.textRec{
+    color: #7E1F86;
+    margin: 0;
+}
+.onee{
+    width:70%;
+    border-radius: 20px;
+    background-color: rgb(243, 236, 236);
+    padding: 10px 20px;
+    margin: auto;
+    box-shadow: 9px 9px 10px 0px rgba(173,151,151,0.65);
+-webkit-box-shadow: 9px 9px 10px 0px rgba(173,151,151,0.65);
+-moz-box-shadow: 9px 9px 10px 0px rgba(173,151,151,0.65);
+}
+.twoo{
+    width:70%;
+    border-radius: 20px;
+    background-color: rgb(243, 236, 236);
+    padding: 10px 20px;
+    margin: 30px auto;
+    box-shadow: 9px 9px 10px 0px rgba(173,151,151,0.65);
+-webkit-box-shadow: 9px 9px 10px 0px rgba(173,151,151,0.65);
+-moz-box-shadow: 9px 9px 10px 0px rgba(173,151,151,0.65);
+}
+hr{
+    color:purple;
+    background-color: #7E1F86;
+    width: 100%;
+}
+#recBtn{
+    background-color: #7E1F86;
+    color: rgb(184, 166, 166);
+    border-radius: 5px;
+    width:350px;
+    height:50px;
+    margin-top: 20px;
+    border: none;
+}
+#recBtn:hover{
+    transform: scale(1.02);
+}
+#recLine{
+    text-decoration: none;
+    font-size: 20px;
+    color: #f0eff0;
+}
+#myTel{
+    text-decoration: none;
+    color: white;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+#myTel:hover{
+    color: rgb(100, 192, 188);
+}
+#avatars{
+    width:75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 0px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+}
+h5{
+    color: white;
+    margin-bottom: 10px;
+}
+.sc{
+    display: flex;
+    margin-bottom: 10px;
+}
+.svg{
+    height: 50px;
+    width: 50px;
+    margin: 0;
+}
+#phone{
+    margin-left: 5px;
+}
+#whats{
+    margin-left: 5px;
+}
+.menus{
+    display: flex;
+    justify-content: center;
+}
+#c{
+    color: white;
+    margin-left: 0px;
+}
+#c:hover{
+    color:rgb(100, 192, 188);
+}
+#lay{
+    display: none;
+}
+#one{
+    height: 230px;
+}
+#two{
+    height: 350px;
+}
+#three{
+    height: 470px;
+}
+@media (min-width:200px) and (max-width:499px){
+    header{
+        height: 90px;
+    }
+    #avatar{
+        margin-left: 10px;
+    }
+    #whoTitle{
+        margin-left: 50px;
+    }
+    #description{
+        left: 0;
+        top:-60px;
+    }
+    .consultation{
+        width:250px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .menu{
+        margin-left: 10px;
+    }
+    #whoBtn{
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 0;
+    }
+    .banner{
+        width: 100%;
+        height:1600px;
+        background-attachment: fixed;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    .imaj{
+        width:300px;
+        height:280px;
+    }
+    #firstph{
+        width:350px;
+        height: 350px;
+        position: relative;
+        top:-70px;
+        left: -20px;
+    }
+    #titleMain{
+        margin:auto;
+        width:250px;
+        top:30px;
+    }
+    .products{
+        flex-direction: column-reverse;
+        height: 1200px;
+        justify-content: flex-start;
+    }
+    .rowitem1{
+        width: 160px;
+        margin:auto;
+        margin-bottom: 20px;
+    }
+    .rowitem2{
+        width: 200px;
+        margin:auto;
+        margin-bottom: 20px;
+    }
+    .drug{
+        width: 50px;
+        height: 50px;
+    }
+    .productImage{
+        width: 100%;
+        height: 600px;
+        background-image: none;
+    }
+    .productText{
+        width: 100%;
+        height:auto;
+        margin-left: 0px;
+        padding: 0;
+    }
+    #productTitle{
+        width:250px;
+        margin: auto;
+        top: 0;
+        left: 0;
+        margin-bottom: 20px;
+        top:140px;
+        font-size: 30px;
+    }
+    #productDes{
+        width:250px;
+        margin: auto;
+        top: 0;
+        left: 0;
+        top:140px;
+    }
+    .bulletpoints{
+        margin-top: 150px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .boxes{
+        flex-direction: column;
+    }
+    .box{
+        width: 250px;
+    }
+    #one{
+        height:fit-content;
+    }
+    #two{
+        align-self: center;
+        margin: 30px 0px;
+        height:fit-content;
+    }
+    #three{
+        align-self: flex-end;
+        height:fit-content;
+    }
+    li{
+        width: 85%;
+    }
+    #recBtn{
+        width: 80%;
+        
+    }
+    .rectangle{
+        flex-direction: column;
+    }
+    h4{width: 80%;}
+    .onee{
+        width: 80%;
+    }
+    .twoo{
+        width: 80%;
+        margin:auto;
+    }
+    #bulTitle{
+        margin-left: 60px;
+    }
+    #descriptions{
+        width: 80%;
+    }
+    .me{
+        position:relative;
+        left:-20px;
+    }
+    .contact{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+@media (min-width:500px) and (max-width:800px){
+    .banner{
+        width: 100%;
+        height:auto;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    .consultation{
+        width:300px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .imaj{
+        width:300px;
+        height:280px;
+    }
+    #firstph{
+        width:350px;
+        height: 350px;
+        position: relative;
+        top:-70px;
+        left: -20px;
+    }
+    #titleMain{
+        width:400px;
+        margin: auto;
+        position: relative;
+        top:30px;
+    }
+    .menu{
+        margin-left: 50px;
+    }
+    .rowitem1{
+        width: 250px;
+        margin:auto;
+        margin-bottom: 20px;
+    }
+    .rowitem2{
+        width: 250px;
+        margin:auto;
+        margin-bottom: 20px;
+    }
+    .drug{
+        width: 50px;
+        height: 50px;
+    }
+    .productText{
+        width: 100%;
+        height:600px;
+        margin-left: 0px;
+        padding: 0;
+    }
+    #productTitle{
+        width:400px;
+        margin: auto;
+        top: 0;
+        left: 0;
+        margin-bottom: 20px;
+        top:140px;
+    }
+    #productDes{
+        width:400px;
+        margin: auto;
+        top: 0;
+        left: 0;
+        top:140px;
+    }
+    .bulletpoints{
+        flex-direction: column;
+        align-items: center;
+    }
+    .boxes{
+        flex-direction: column;
+    }
+    #two{
+        align-self: center;
+        margin: 30px 0px;
+    }
+    #three{
+        align-self: flex-end;
+    }
+    #whoBtn{
+        margin-left: 30px;
+    }
+    li{
+        width: 85%;
+    }
+    #recBtn{
+        width: 80%;
+    }
+    hr{
+        display: none;
+    }
+    .onee{
+        width: 75%;
+    }
+    .twoo{
+        width: 75%;
+        margin-left: auto;
+    }
+    #bulTitle{
+        margin-left: 60px;
+    }
+    .contact{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (min-width:801px) and (max-width:1000px){
+    .banner{
+        width: 100%;
+        height:auto;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    .consultation{
+        width:400px;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .imaj{
+        width:400px;
+        height:380px;
+    }
+    #firstph{
+        width:490px;
+        height: 490px;
+    }
+    #titleMain{
+        margin-left: 0px;
+        width:500px;
+        top:-50px;
+        left:60px;
+    }
+    .menu{
+        margin-left: 80px;
+    }
+    .products{
+        flex-direction: column-reverse;
+        height: 1300px;
+    }
+    .rowitem1{
+        width: 250px;
+        margin:auto;
+        margin-bottom: 20px;
+    }
+    .rowitem2{
+        width: 250px;
+        margin:auto;
+        margin-bottom: 20px;
+    }
+    .drug{
+        width: 50px;
+        height: 50px;
+    }
+    .productImage{
+        width: 100%;
+        height: 1000px;
+        background-image: none;
+    }
+    .productText{
+        width: 100%;
+        height:600px;
+    }
+    #productTitle{
+        top:-70px;
+        width: 500px;
+        margin:auto;
+        margin-left: 0;
+        margin-bottom: 20px;
+        position: relative;
+        top:30px;
+        left:-30px;
+    }
+    #productDes{
+        top:-50px;
+        width: 500px;
+        margin:auto;
+        margin-left: 0;
+        top:30px;
+        left:-30px;
+    }
+    .bulletpoints{
+        flex-direction: row;
+    }
+    .boxes{
+        flex-direction: column;
+    }
+    #two{
+        align-self: center;
+        margin: 30px 0px;
+    }
+    #three{
+        align-self: flex-end;
+    }
+    #whoBtn{
+        margin-left: 200px;
+    }
+    li{
+        width: 90%;
+    }
+    #recBtn{
+        width: 85%;
+    }
+    hr{
+        display: none;
+    }
+    .onee{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    .twoo{
+        width: 45%;
+        margin:auto;
+    }
+    #bulTitle{
+        margin-left: 60px;
+    }
+    .contact{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (min-width:1001px) and (max-width:1300px){
+    .consultation{
+        width:300px;
+        margin-left: 50px;
+    }
+    .imaj{
+        width:400px;
+        height:380px;
+    }
+    #firstph{
+        width:490px;
+        height: 490px;
+    }
+    #titleMain{
+        width:500px;
+        margin-left: 10px;
+    }
+    #productTitle{
+        margin-left: -80px;
+    }
+    #productDes{
+        margin-left: -80px;
+    }
+    #one{
+        height: fit-content;
+    }
+    #two{
+        height: fit-content;
+    }
+    #three{
+        height: fit-content;
+    }
+    #whoBtn{
+        margin-left: 350px;
+    }
+    #bulTitle{
+        margin-left: 350px;
+    }
+    .rowitem2{
+        margin-left: 110px;
+    }
+    .onee{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    .twoo{
+        width: 45%;
+        margin:auto;
+    }
+}
